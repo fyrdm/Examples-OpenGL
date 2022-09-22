@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>C:\LearnOpenGL\Examples\Examples-OpenGL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\LearnOpenGL\Examples\Examples-OpenGL\libs;$(LibraryPath)</LibraryPath>
+    <SourcePath>C:\LearnOpenGL\Examples\Examples-OpenGL\src;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
